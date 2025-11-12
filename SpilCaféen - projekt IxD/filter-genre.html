@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Spilcaféen - Filter Genre">
+    <title>Spilcaféen - Genre</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600;800&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="mobile-wrapper">
+    <!-- Header with Back button -->
+    <header class="header-location">
+        <a href="filter.html" class="back-button-location" aria-label="Tilbage">
+            <img src="https://www.figma.com/api/mcp/asset/36a8cb13-67e4-471d-a988-65fecb863be0" alt="Tilbage">
+        </a>
+    </header>
+
+    <!-- Page Title -->
+    <div class="filter-title">
+        <h1>Genre</h1>
+    </div>
+
+    <!-- Genre Options -->
+    <div class="genre-options">
+        <div class="genre-item">
+            <span class="genre-label">Abstrakt</span>
+            <input type="checkbox" class="genre-checkbox" id="genre-abstrakt" value="Abstract">
+            <label for="genre-abstrakt" class="checkbox-label"></label>
+        </div>
+        <div class="genre-divider"></div>
+
+        <div class="genre-item">
+            <span class="genre-label">Brætspil</span>
+            <input type="checkbox" class="genre-checkbox" id="genre-braetspil" value="Brætspil">
+            <label for="genre-braetspil" class="checkbox-label"></label>
+        </div>
+        <div class="genre-divider"></div>
+
+        <div class="genre-item">
+            <span class="genre-label">Familie</span>
+            <input type="checkbox" class="genre-checkbox" id="genre-familie" value="Familie">
+            <label for="genre-familie" class="checkbox-label"></label>
+        </div>
+        <div class="genre-divider"></div>
+
+        <div class="genre-item">
+            <span class="genre-label">Fliselægning</span>
+            <input type="checkbox" class="genre-checkbox" id="genre-fliselaegning" value="Fliselægning">
+            <label for="genre-fliselaegning" class="checkbox-label"></label>
+        </div>
+        <div class="genre-divider"></div>
+
+        <div class="genre-item">
+            <span class="genre-label">Kooperativt</span>
+            <input type="checkbox" class="genre-checkbox" id="genre-kooperativt" value="Kooperativt">
+            <label for="genre-kooperativt" class="checkbox-label"></label>
+        </div>
+        <div class="genre-divider"></div>
+
+        <div class="genre-item">
+            <span class="genre-label">Kortspil</span>
+            <input type="checkbox" class="genre-checkbox" id="genre-kortspil" value="Kortspil">
+            <label for="genre-kortspil" class="checkbox-label"></label>
+        </div>
+        <div class="genre-divider"></div>
+
+        <div class="genre-item">
+            <span class="genre-label">Mysterie</span>
+            <input type="checkbox" class="genre-checkbox" id="genre-mysterie" value="Mysterie">
+            <label for="genre-mysterie" class="checkbox-label"></label>
+        </div>
+        <div class="genre-divider"></div>
+
+        <div class="genre-item">
+            <span class="genre-label">Ordspil</span>
+            <input type="checkbox" class="genre-checkbox" id="genre-ordspil" value="Ordspil">
+            <label for="genre-ordspil" class="checkbox-label"></label>
+        </div>
+        <div class="genre-divider"></div>
+
+        <div class="genre-item">
+            <span class="genre-label">Party</span>
+            <input type="checkbox" class="genre-checkbox" id="genre-party" value="Party">
+            <label for="genre-party" class="checkbox-label"></label>
+        </div>
+        <div class="genre-divider"></div>
+
+        <div class="genre-item">
+            <span class="genre-label">Strategi</span>
+            <input type="checkbox" class="genre-checkbox" id="genre-strategi" value="Strategi">
+            <label for="genre-strategi" class="checkbox-label"></label>
+        </div>
+        <div class="genre-divider"></div>
+
+        <div class="genre-item">
+            <span class="genre-label">Terning</span>
+            <input type="checkbox" class="genre-checkbox" id="genre-terning" value="Terning">
+            <label for="genre-terning" class="checkbox-label"></label>
+        </div>
+    </div>
+
+    <!-- Show Results Button -->
+    <button class="show-results-btn genre-filter" id="showResultsBtn">
+        Gem
+    </button>
+</div>
+
+<script src="script_filter_genre.js"></script>
+</body>
+</html>
